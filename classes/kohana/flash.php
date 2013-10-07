@@ -12,7 +12,7 @@ class Kohana_Flash {
 	/**
 	 * @var  string  The default view
 	 */
-	private static $_flash_view = 'flash/default';
+	protected static $_flash_view = 'flash/default';
 
 	/**
 	 * @var  string  The default session key
